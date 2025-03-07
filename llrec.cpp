@@ -20,6 +20,7 @@ void llpivot (Node*& head, Node*& smaller, Node*& larger, int pivot) {
     smaller = head;
   }  
 
+  head = NULL;
   llpivot(temp, smaller, larger, pivot);
 
 }
